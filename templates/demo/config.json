@@ -1,0 +1,5 @@
+{
+  "title": "测试用页面DEMO",
+  "entry": "./index.js.ejs",
+  "description": "仅用于本地测试，无其他功能"
+}

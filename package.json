@@ -1,0 +1,19 @@
+{
+  "name": "@dm/div",
+  "version": "1.0.0",
+  "description": "div project",
+  "main": "index.js",
+  "author": "guifu.wu@dmall.com",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "chokidar": "^3.4.3",
+    "ejs": "^3.1.5",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "7.4.0",
+    "prettier": "^2.2.1",
+    "shelljs": "^0.8.4"
+  }
+}
