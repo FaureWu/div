@@ -1,4 +1,5 @@
 const bodyParser = require('koa-bodyparser')
+const cors = require('koa2-cors')
 const path = require('path')
 const chalk = require('chalk')
 const config = require('./lib/config')
@@ -10,6 +11,12 @@ const mockRouter = createMock()
 
 module.exports = {
   middleware: [
+    cors({
+      allowMethods:['GET', 'POST', 'DELETE'],
+      origin: function (ctx) {
+        return '*';
+      },
+    }),
     bodyParser(),
     editorRouter.routes(),
     editorRouter.allowedMethods(),

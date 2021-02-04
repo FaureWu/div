@@ -1,6 +1,6 @@
 {
   "name": "@opcjs/div",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "div project",
   "main": "index.js",
   "author": "guifu.wu@dmall.com",
@@ -14,6 +14,7 @@
     "ejs": "^3.1.5",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "7.4.0",
+    "koa2-cors": "^2.0.6",
     "prettier": "^2.2.1",
     "shelljs": "^0.8.4"
   }
