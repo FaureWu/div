@@ -1,6 +1,6 @@
 {
   "name": "@opcjs/div",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "div project",
   "main": "index.js",
   "author": "guifu.wu@dmall.com",
