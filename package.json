@@ -1,14 +1,14 @@
 {
   "name": "@opcjs/div",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "div project",
   "main": "index.js",
   "author": "guifu.wu@dmall.com",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/register": "^7.12.10",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/register": "^7.13.16",
     "chalk": "^4.1.0",
     "chokidar": "^3.4.3",
     "ejs": "^3.1.5",

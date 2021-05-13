@@ -29,12 +29,9 @@ module.exports = {
     const route = config.editorPath.replace(config.pagesPath, '')
       .split(path.sep).filter(item => !!item).join('/')
   
-    callback()
-
     console.log()
-    console.log(chalk.yellow('[编辑器] 启动完成'))
     console.log(chalk.yellow('[编辑器] 编辑器访问地址'))
-    console.log(chalk.yellow(`[编辑器] https://cabinx.dmall.com?debug-${name}=https://local.dmall.com/kayak-project#full/${name}/${route}`))
+    console.log(chalk.yellow(`[编辑器] https://cabinx.dmall.com?debug-${name}=https://local.dmall.com/kayak-project#full/${name}/${route}:mock=true`))
     console.log()
     console.log(chalk.yellow('[HOST] 请确保已经配置如下host'))
     console.log(chalk.yellow('[HOST] local.dmall.com 127.0.0.1'))
